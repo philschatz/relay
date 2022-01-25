@@ -176,6 +176,17 @@ relay between two peers.
 
 MIT
 
+## Local Development
+
+Install [lerna] and then run the following:
+
+```sh
+lerna clean
+lerna bootstrap
+lerna run build
+lerna run test
+```
+
 ## Prior art
 
 Inspired by https://github.com/orionz/discovery-cloud-server
@@ -187,3 +198,4 @@ Formerly known as 🐟 Cevitxe Signal Server. (Cevitxe is now [@localfirst/state
 [@localfirst/relay-client]: ./packages/client/
 [relay-deployable]: https://github.com/local-first-web/relay-deployable
 [server tests]: ./packages/relay/src/Server.test.ts
+[lerna]: https://lerna.js.org
